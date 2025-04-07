@@ -1,17 +1,16 @@
-import React from 'react'
-import Navbar from './Navbar';
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import Report from './pages/Report';
-import Center from './pages/Center';
-import Contact from './pages/Contact';
-
+import React from "react";
+import Navbar from "./Navbar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Report from "./pages/Report";
+import Center from "./pages/Center";
+import Contact from "./pages/Contact";
 
 const Header = () => {
   return (
     <>
-      <BrowserRouter>
+      {/* <BrowserRouter>
       <Navbar/>
       <Routes>
       <Route path="/" element={<Home/>} />
@@ -20,9 +19,9 @@ const Header = () => {
       <Route path="/about" element={<About/>} />
       <Route path="/contact" element={<Contact/>} />
       </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
