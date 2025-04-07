@@ -11,14 +11,14 @@ const Header = () => {
   return (
     <>
       {/* <BrowserRouter>
-      <Navbar/>
-      <Routes>
-      <Route path="/" element={<Home/>} />
-      <Route path="/report" element={<Report/>} />
-      <Route path="/center" element={<Center/>} />
-      <Route path="/about" element={<About/>} />
-      <Route path="/contact" element={<Contact/>} />
-      </Routes>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/report" element={<Report />} />
+          <Route path="/center" element={<Center />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </BrowserRouter> */}
     </>
   );
