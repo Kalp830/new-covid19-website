@@ -1,0 +1,309 @@
+
+@import './Variable';
+
+html{
+  font-family: $archivo-font;
+}
+%button-css{
+  border-radius: 6.25rem;
+    text-transform: uppercase;
+    padding: .625rem 1.875rem;
+    background: $theme-color;
+    color: #fff;
+    font-family: $archivo-font;
+    font-size: normal;
+    margin-top: 1.5625rem;
+}
+.fw-700{
+  color: $font700;
+}
+
+.text-blue{
+  color: $theme-color;
+}
+
+.top-header{
+  background-color: #F0ECF9;
+  min-height: auto;
+}
+.btn-prevent{
+  border-radius: 50%;
+}
+.jumbotron{
+  h1{
+    font-family: $archivo-font;
+    color: $theme-color;
+    font-weight: bold;
+  }
+  h6{
+    text-transform: uppercase;
+    font-family: $archivo-font;
+    color: $theme-color;
+  }
+  p{
+    color: $font-color;
+  }
+  button{
+    @extend %button-css;
+  }
+  button:hover{
+    background: #047dce;
+    color: #fff;
+  }
+}
+
+/**********Second Section Css**************/
+.corona-statics,
+.how-to-protect{
+  text-align: center;
+  h2{
+    color: $theme-color;
+    font-family: $archivo-font;
+    padding: 1.875rem 0 0 0;
+  }
+  p{
+    color: $font-color;
+  }
+  span{
+    color: $theme-color;
+    font-family: $archivo-font;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+}
+
+/**********Third Section Css**************/
+.about-corona{
+  h3{
+    color: $theme-color;
+    font-family: $archivo-font;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  p{
+    color: $font-color;
+  }
+  button{
+    @extend %button-css;
+  }
+  button:hover{
+    background: #047dce;
+    color: #fff;
+  }
+}
+ul.listing {
+  padding: 0;
+  margin: 0;
+}
+.listing li{
+  /* list-style-image: url(./images/check-mark.svg) ; */
+  background: url('./images/check-mark.svg') no-repeat;
+  list-style: none;
+  padding-left: 1.875rem; 
+  margin-bottom: 1.25rem; 
+  color: $font-color;
+}
+/**********Foruth Section Css**************/
+.point-display{
+  h5{
+    font-family: $archivo-font;
+    color: $theme-color;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+} 
+
+/**********Fifth Section Css**************/
+.prevent-corona{
+   button{
+    @extend %button-css;
+    :hover{
+      background: #047dce;
+      color: #fff;
+    }
+  }
+  p{
+    color: $font-color;
+  }
+  h3{
+    font-family: $archivo-font;
+    color: $theme-color;
+    font-weight: bold;
+  }
+} 
+
+.prevent-corona{
+  background-color: rgba(240, 236, 249, 0.342);
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+.card {
+  background-color: #007bff;
+  color: white;
+  width: 223px;
+  margin: 1.25rem;
+  box-shadow: 0 .20rem .5rem rgba(0, 151, 254, 0.4);
+}
+
+.card-icon {
+  font-size: 3.125rem;
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+
+.card-content{
+  padding: 0 20px;
+
+  h2{
+    font-size: 1.25rem;
+    margin-bottom: .625rem;
+    text-align: left;
+    font-family: $archivo-font;
+    color: $theme-color;
+    font-weight: bold;
+  }
+  p{
+    font-size: .875rem;
+    text-align: left;
+  }
+}
+
+/**********Sixth Section Css**************/
+.whatDo{
+   ul{
+    padding: 0;
+    margin: 0;
+   }
+   li{
+    list-style: none;
+    background: url('./images/green-tick.svg') no-repeat;
+    padding-left: 30px; 
+    margin-bottom: 20px; 
+    text-align: left;
+    font-size: 1rem;
+    color: #9D9C9C;
+    font-family: $archivo-font;
+   }
+}
+
+.notDo{
+  ul{
+   padding: 0;
+   margin: 0;
+  }
+  li{
+   list-style: none;
+   background: url('./images/close.svg') no-repeat;
+   padding-left: 30px; 
+   margin-bottom: 20px; 
+   text-align: left;
+   font-size: 1rem;
+   color: #9D9C9C;
+   font-family: $archivo-font;
+  }
+}
+
+/*********Symptoms of corona**************/
+
+.symptions-of-corona{
+    background-color: rgba(240, 236, 249, 0.342);
+    padding: 60px 0;
+}
+.symptions-of-corona{
+  h2{
+    color: $theme-color;
+    font-family: $archivo-font;
+  }
+  p{
+    color: $font-color;
+  }
+}
+.symptions-of-corona{
+  .symptom-card{
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  button{
+    @extend %button-css;
+   }
+}
+/*******News and Articel Section********/
+
+.NA-section{
+  .date{
+    background: $theme-color;
+    padding: 5px;
+    font-family: $archivo-font;
+    text-align: center;
+    color: #fff;
+    width: 10rem;
+    margin: 0 auto;
+    position: relative;
+    bottom: 19px;
+  }
+  p{
+    text-transform:capitalize;
+    margin-bottom: 0;
+  }
+  .info-box{
+    font-family: $archivo-font;
+    color: $light-gray;
+    padding: 15px 0;
+    text-transform: uppercase;
+    font-weight: normal;
+    i{
+      padding-right: 10px;
+      color: $light-gray;
+    } 
+  }
+}
+
+/*******Footer CSS***********/
+footer{
+  background-color: rgba(240, 236, 249, 0.342);
+  padding-top: 2rem;
+
+  .social-media{
+    a{
+      font-size: 2rem ;
+      color: $theme-color;
+      padding-right: 1rem;
+      font-family: $archivo-font;
+    :hover{
+      color:#0173c0 ;
+    }
+    }
+  }
+  .sub_footer{
+    h5{
+      font-family: $archivo-font;
+    }
+  }
+  .sub_footer-links{
+    a{
+      text-decoration: none;
+      font-family: $archivo-font;
+      color: #999;
+      &:hover{
+        color:$theme-color;
+      }
+    }
+    h4{
+      font-family: $archivo-font;
+    }
+  }
+  p{
+    font-family: $archivo-font;
+  }
+  .bottom-footer{
+    color: $font-color;
+    background-color: rgba(240, 236, 249, 0.5);
+  }
+}
+
+
